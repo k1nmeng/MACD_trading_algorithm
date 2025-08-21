@@ -4,7 +4,7 @@ This project is a Python-based tool for analyzing stock price data and generatin
 
 !
 
-📈 Features
+#### 📈 Features
 Data Processing: Loads and prepares time-series stock data from a standard CSV file.
 
 MACD Calculation: Automatically calculates the MACD line, signal line, and histogram using the pandas-ta library.
@@ -15,7 +15,7 @@ Interactive Visualization: Generates a dynamic and interactive candlestick chart
 
 Exportable Chart: Saves the final chart as a standalone HTML file, perfect for sharing and analysis without needing to run any code.
 
-🛠️ How It Works
+#### 🛠️ How It Works
 The algorithm operates on the MACD crossover strategy:
 
 MACD Line vs. Signal Line: The core of the strategy is the relationship between the MACD line (the difference between the 12-period and 26-period EMAs) and the signal line (a 9-period EMA of the MACD line).
